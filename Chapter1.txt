@@ -1,6 +1,2 @@
-func calcArea(w: Double, h: Double) -> Double {
-    let res1 = w * h
-    return res1
-}
+Empty again :)
 
-print(calcArea(w: 6, h: 2)) // => 12
