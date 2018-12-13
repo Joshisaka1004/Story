@@ -1,0 +1,9 @@
+A superb addition to Chapter3:
+
+func volume(_ length: Double, width: Double, height: Double) -> Double {
+    let volume = length * width * height
+    return volume
+}
+
+let result1 = volume(10, width: 3, height: 4.5) //Note that parameter "length" has no external name (see underscore)!
+print(result1) // => 10 * 3 * 4.5 = 135.0
